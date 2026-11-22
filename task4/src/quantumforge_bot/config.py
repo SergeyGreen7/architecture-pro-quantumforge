@@ -20,6 +20,7 @@ from .constants import (
     DEFAULT_MAX_QUERY_CHARS,
     DEFAULT_MIN_SIMILARITY,
     DEFAULT_TOP_K,
+    DEFAULT_SECURITY_MODE,
     DEFAULT_YANDEX_MODEL,
     ENV_CHROMA_COLLECTION,
     ENV_EMBEDDING_CACHE_DIR,
@@ -34,6 +35,7 @@ from .constants import (
     ENV_RAG_MAX_QUERY_CHARS,
     ENV_RAG_MIN_SIMILARITY,
     ENV_RAG_TOP_K,
+    ENV_RAG_SECURITY_MODE,
     ENV_TELEGRAM_BOT_TOKEN,
     ENV_TELEGRAM_WEBHOOK_SECRET,
     ENV_YANDEX_API_KEY,
@@ -41,6 +43,7 @@ from .constants import (
     ENV_YANDEX_MODEL,
     SUPPORTED_EMBEDDING_DEVICES,
     SUPPORTED_LOG_LEVELS,
+    SUPPORTED_SECURITY_MODES,
     TASK4_DIR,
 )
 
@@ -99,6 +102,7 @@ class Settings:
     log_level: str = DEFAULT_LOG_LEVEL
     log_max_bytes: int = DEFAULT_LOG_MAX_BYTES
     log_backup_count: int = DEFAULT_LOG_BACKUP_COUNT
+    security_mode: str = DEFAULT_SECURITY_MODE
 
     @classmethod
     def from_env(cls, *, require_telegram: bool = True) -> "Settings":
@@ -137,6 +141,14 @@ class Settings:
                 "LOG_LEVEL must be DEBUG, INFO, WARNING, ERROR, or CRITICAL"
             )
 
+        security_mode = os.getenv(
+            ENV_RAG_SECURITY_MODE, DEFAULT_SECURITY_MODE
+        ).strip().lower()
+        if security_mode not in SUPPORTED_SECURITY_MODES:
+            raise ConfigurationError(
+                "RAG_SECURITY_MODE must be off, pre_prompt, post_filter, sanitize, or all"
+            )
+
         return cls(
             telegram_bot_token=telegram_token,
             telegram_webhook_secret=webhook_secret,
@@ -171,4 +183,5 @@ class Settings:
             log_backup_count=_positive_int(
                 ENV_LOG_BACKUP_COUNT, DEFAULT_LOG_BACKUP_COUNT
             ),
+            security_mode=security_mode,
         )

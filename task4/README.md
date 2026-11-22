@@ -110,15 +110,25 @@ uv run python -m quantumforge_bot
 `../task2/embedding_model_cache`. YandexGPT является платным API: каждый вопрос,
 прошедший порог поиска, создаёт оплачиваемый запрос.
 
-Телеграм бот
+## Телеграм бот
 
 ```bash
+set -a
+source .env
+set +a
+
 ./.venv/bin/uvicorn quantumforge_bot.app:app \
   --host 127.0.0.1 \
   --port 8080
 ```
 
-Локальный HTTP-сервер:
+или
+
+```bash
+./run_bot.sh
+```
+
+## Локальный HTTP-сервер:
 
 ```bash
 uv run uvicorn quantumforge_bot.app:app --host 0.0.0.0 --port 8080
@@ -208,6 +218,7 @@ Containers автоматически сохраняет их в Yandex Cloud Lo
 yc logging read --resource-ids=<CONTAINER_ID>
 ```
 
+<!--
 ## Развёртывание в Yandex Cloud
 
 Serverless Container выбран вместо Cloud Functions, потому что PyTorch, BGE-M3
@@ -341,7 +352,7 @@ Telegram добавляет `X-Telegram-Bot-Api-Secret-Token` ко всем за
 - один экземпляр обрабатывает один запрос одновременно, чтобы не конкурировать
   за CPU/RAM локальной модели;
 - при большом трафике лучше вынести embedding service и ChromaDB в отдельные
-  долгоживущие сервисы.
+  долгоживущие сервисы. -->
 
 ## Примеры
 

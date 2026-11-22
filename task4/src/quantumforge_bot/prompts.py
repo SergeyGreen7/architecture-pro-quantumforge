@@ -11,6 +11,7 @@ def build_messages(
     chunks: list[RetrievedChunk],
     *,
     max_context_chars: int,
+    system_prompt: str = SYSTEM_PROMPT,
 ) -> list[dict[str, str]]:
     """Build system + few-shot + grounded user messages for YandexGPT."""
 
@@ -37,7 +38,7 @@ def build_messages(
         "Сформируй короткий прямой ответ строго по контексту."
     )
     return [
-        {"role": "system", "text": SYSTEM_PROMPT},
+        {"role": "system", "text": system_prompt},
         *FEW_SHOT_MESSAGES,
         {"role": "user", "text": final_user_message},
     ]

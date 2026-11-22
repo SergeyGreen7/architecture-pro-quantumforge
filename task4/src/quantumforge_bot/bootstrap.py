@@ -38,6 +38,7 @@ def build_pipeline(settings: Settings) -> tuple[RAGPipeline, int]:
         min_similarity=settings.min_similarity,
         max_context_chars=settings.max_context_chars,
         max_query_chars=settings.max_query_chars,
+        security_mode=settings.security_mode,
     )
     return pipeline, retriever.count
 
