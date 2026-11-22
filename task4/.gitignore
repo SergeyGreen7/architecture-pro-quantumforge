@@ -1,0 +1,7 @@
+.env
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+storage/logs/*.jsonl
+storage/logs/*.jsonl.*

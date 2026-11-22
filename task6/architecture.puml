@@ -1,0 +1,41 @@
+@startuml
+title QuantumForge — ежедневное обновление базы знаний
+
+skinparam componentStyle rectangle
+skinparam shadowing false
+
+actor "cron\nежедневно 06:00" as Cron
+folder "Локальный источник\ndocs/knowledge_base/*.txt" as Source
+component "run_daily_update.sh\nдо 3 попыток" as Runner
+component "update_index.py" as Updater
+database "index_state.json\nSHA-256 + chunk IDs" as State
+component "RecursiveCharacterTextSplitter\n200 слов / overlap 30" as Chunker
+component "BAAI/bge-m3\nлокально, 1024-D" as Embedder
+database "ChromaDB\ntask6/chroma_db" as Index
+file "JSONL log\nindex_updates.jsonl" as JsonLog
+file "cron.log" as CronLog
+component "Telegram RAG-бот" as Bot
+
+Cron --> Runner : запускает
+Runner --> Updater : Python, retry при ошибке
+Runner --> CronLog : stdout/stderr
+Source --> Updater : scan + SHA-256
+State <--> Updater : новые / изменённые / удалённые
+Updater --> Chunker : только новые и изменённые документы
+Chunker --> Embedder : новые/изменённые чанки
+Embedder --> Index : upsert embeddings
+Updater --> Index : delete устаревших chunk IDs
+Updater --> State : атомарная запись после проверки
+Updater --> JsonLog : start / completed / failed
+Index --> Bot : актуальный retrieval
+
+note right of Runner
+  При ошибке:
+  3 попытки с паузой 60 секунд,
+  затем exit 1 и запись в cron.log
+end note
+
+note bottom of Updater
+  flock не допускает параллельных обновлений
+end note
+@enduml

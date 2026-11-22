@@ -1,0 +1,22 @@
+[project]
+name = "quantumforge-task5-security-demo"
+version = "0.1.0"
+description = "Prompt-injection security evaluation for the QuantumForge RAG bot"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "chromadb==1.5.9",
+    "sentence-transformers==5.7.0",
+    "yandex-ai-studio-sdk>=0.19,<1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8,<10",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

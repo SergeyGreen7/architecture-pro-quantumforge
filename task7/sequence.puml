@@ -1,0 +1,59 @@
+@startuml
+title Task 7 — обработка и автоматическая оценка RAG-запроса
+
+actor "Evaluator / User" as User
+participant "evaluate.py" as Eval
+database "golden_questions.txt" as Golden
+participant "BGE-M3 Retriever" as Retriever
+database "Task 7 ChromaDB\n(3 artificial gaps)" as Index
+participant "Security filters" as Filter
+participant "YandexGPT" as LLM
+participant "Quality scorer" as Score
+database "logs.jsonl" as Log
+
+Eval -> Golden : load 12 questions + expectations
+loop every golden question
+  User -> Eval : question
+  Eval -> Retriever : embed(query), top-k
+  Retriever -> Index : vector search
+  Index --> Retriever : chunks + similarity + sources
+
+  alt empty result or top similarity below threshold
+    Retriever --> Eval : no reliable context
+    Eval -> Score : "Я не знаю", expected answerability
+  else chunks found
+    Retriever --> Filter : retrieved chunks
+    alt invalid / injection chunk
+      Filter --> Eval : chunk removed
+      Eval -> Score : refusal or remaining context
+    else valid context
+      Filter -> LLM : system prompt + context + question
+      alt generation error / empty answer
+        LLM --> Eval : error
+        Eval -> Score : fail_generation
+      else generated answer
+        LLM --> Eval : answer
+        Eval -> Score : answer + sources + expected keywords
+      end
+    end
+  end
+
+  Score -> Score : answerability, keyword completeness, source relevance
+  Score -> Log : timestamp, query, chunks, sources, length, status
+  Score --> User : pass/fail + diagnostic
+end
+
+Eval -> Log : aggregate coverage report
+
+note right of Index
+  Possible failure:
+  removed entity, stale document,
+  irrelevant nearest chunks
+end note
+
+note right of LLM
+  Possible failure:
+  hallucination, refusal,
+  incomplete answer
+end note
+@enduml
