@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "model": "BAAI/bge-m3",
+  "collection": "quantumforge_knowledge_base",
+  "chunk_size_words": 200,
+  "chunk_overlap_words": 30,
+  "documents": {
+    "task6/demo/source/alpha_station.txt": {
+      "sha256": "95de926c897138e745f66fadda79663ad9928bf2804ce7a1f9bd2619387659a0",
+      "size_bytes": 136,
+      "mtime_ns": 1795378477777658886,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "23229455bc6f3749d13d76734395bc44f4a009bf96f0cd04793c20d3b20e625d"
+      ]
+    },
+    "task6/demo/source/daily_update.txt": {
+      "sha256": "a4c41bf6d2f2b7f89164a7dd459af0a560bc86e39e6df617d31990362491f95a",
+      "size_bytes": 267,
+      "mtime_ns": 1795378522201505817,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "d39922dd0d90d1c2410480c832ce92090db11ac828e2fb355bed7958abd52b41"
+      ]
+    }
+  },
+  "source_dir": "/Users/sergey/work/yandex_practicum/ms_cource/architecture-pro-quantumforge/task6/demo/source",
+  "index_dir": "/Users/sergey/work/yandex_practicum/ms_cource/architecture-pro-quantumforge/task6/demo/chroma_db",
+  "last_success_at": "2026-11-22T20:15:40.299103+00:00",
+  "index_chunk_count": 2
+}

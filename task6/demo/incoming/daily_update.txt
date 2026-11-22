@@ -1,0 +1,6 @@
+Daily QuantumForge Update
+=========================
+
+The Helios Gate opened during the daily knowledge-base update. This simulated
+document proves that a newly arrived file is detected, chunked, embedded, and
+added to ChromaDB without rebuilding unchanged documents.

@@ -1,0 +1,1312 @@
+{
+  "version": 1,
+  "model": "BAAI/bge-m3",
+  "collection": "quantumforge_knowledge_base",
+  "chunk_size_words": 200,
+  "chunk_overlap_words": 30,
+  "documents": {
+    "docs/knowledge_base/MC Кайро.txt": {
+      "sha256": "1f69fbd6398e9cb7bfde54c971fba4b46b0695b9f63d4bc009b9a7350bee2a57",
+      "size_bytes": 3258,
+      "mtime_ns": 1794600134859991242,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "b9a0125e2265f3205d90bc36c77886bb3756ec5e17862a3900e13448c43c2844",
+        "e5d898748c9c0f413dc255eb162234ec3e76a17dbf87cf0fd48d50b383d8f466"
+      ]
+    },
+    "docs/knowledge_base/Авиан Нокс.txt": {
+      "sha256": "0af92aed6cfc77defb6d5a98158985a3cacbc510a5951677f9ab6fc3c8197248",
+      "size_bytes": 4011,
+      "mtime_ns": 1794600134860577167,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "2e415e826033b1b1581a0821d459b0e34f1e35c9e35839be56c7303046e82c7f",
+        "85bdc7063c303d96dbb2ef886f643264621d49e637168740ac0d8fb98f671408"
+      ]
+    },
+    "docs/knowledge_base/Арбориане.txt": {
+      "sha256": "e676bb869de8e0f03e7c980f4431f41545ba8fd07213996c10bfa0fbac09f607",
+      "size_bytes": 1279,
+      "mtime_ns": 1794600134861043923,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "2eae5601b6eabe977dc8ef5a872e7c786f09a7e48a180d0bd819a30d7ec48fa9"
+      ]
+    },
+    "docs/knowledge_base/Аркон IV.txt": {
+      "sha256": "c21c8043fc3ab3e662b62babcb3da1fc8f2657638a601ee13b6d7170717d5166",
+      "size_bytes": 2316,
+      "mtime_ns": 1794600134861570556,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "b54c72f425badf108f9de0554ba9c11db44462c0fcf0680d0b686b076f9b2338"
+      ]
+    },
+    "docs/knowledge_base/Аркон Вейр (K-42).txt": {
+      "sha256": "28b61a1775756afaf3c149486ffc9a5705c0bf82de4d8e165f66744fbb6dc23e",
+      "size_bytes": 694,
+      "mtime_ns": 1794600134862027395,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "8beb4fc27d69127645d5aea9711f6d0a8acd6570a8a7e60c649243721c8287f4"
+      ]
+    },
+    "docs/knowledge_base/Аркон Вейр.txt": {
+      "sha256": "27a976eaf3c12c7c6ce275063c9443dab6b243950a997c4bcf6c9df0eaa74778",
+      "size_bytes": 2853,
+      "mtime_ns": 1794600134862454651,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "3dd690a214ce39990180348113b15ff4f21834da7ec6122c706bc737ac26c65e",
+        "4180e2324430cb0a5299d4fbd32f5802a4c756c8cc088fa7f2eb2809ee429fb5"
+      ]
+    },
+    "docs/knowledge_base/Аркон Д. Вейр III.txt": {
+      "sha256": "05f2c36efb850cd5e7fe5f3a9aab9a464bfdbc11dc1139059aa3e818559f3735",
+      "size_bytes": 4309,
+      "mtime_ns": 1794600134862993159,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "346b7cf64e119fd0bf3b51cb9cfcf566b1a0b7eb884385090aba1a076ee20463",
+        "db76a4a309915e537ca1064d148f7a9cc7e051d8a42d86a1e08894651fa2e3c0",
+        "79495ca84340964415e4b6ec63fe596e067f8404d5541546f8b9e34737a28992"
+      ]
+    },
+    "docs/knowledge_base/Аркон Прайм.txt": {
+      "sha256": "baf058c0caf037dc78aa9672a4adf88949ed98a1705614b9f24e334b45d523b0",
+      "size_bytes": 1245,
+      "mtime_ns": 1794600134863352706,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "d3526fca194b84eff1b8ede3b885e7db5b8749e116968c09db23ad4fc40e69a8"
+      ]
+    },
+    "docs/knowledge_base/Астракроны.txt": {
+      "sha256": "024737b2ed16676a26bd229940964725752a0b1ae9de363dca9678136419c440",
+      "size_bytes": 3078,
+      "mtime_ns": 1794600134863855088,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "12bb62d1601b1495838730803fa4e7583a0dd76f51a8beb6698732794059b7af",
+        "f40f1131a2cbcd7034e169fbb772b28e22b4bdf0e42b7fe914e022a691aff35e"
+      ]
+    },
+    "docs/knowledge_base/Аэвис Муравьиные глаза.txt": {
+      "sha256": "d15621747010b6e7359218caecc47b3bb641f78cb1343bb08b44c6a25349ed23",
+      "size_bytes": 1385,
+      "mtime_ns": 1794600134864463305,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "00b6eff59c244de43c68d01993543f880e058ecef47aad4a4d5db53c8f5e7838"
+      ]
+    },
+    "docs/knowledge_base/Аэзар Уркор.txt": {
+      "sha256": "e7f61ab96fee94657656916711e3db30c01f31cf1021254e1922c8d051101a36",
+      "size_bytes": 2527,
+      "mtime_ns": 1794600134864788267,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "1d00b56e2bfbbefb1aa5bea9dc4fd5a662c893a11b910fbcd7d6e851c20031ca",
+        "fc887f615e5dda8f235ffe7932b93f2a960bbe5beff50f3dccada5ead6d4f9e3"
+      ]
+    },
+    "docs/knowledge_base/Багровый Занавес.txt": {
+      "sha256": "0bea9b330a6420436bf7907875fbccf9ee4890a5637990800eb886c67f7cc8bf",
+      "size_bytes": 1871,
+      "mtime_ns": 1794600134865088480,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "e07852d2e23534f24aaf9359bc283800920fb3c2b8ec0362ba81aad70213b5bc"
+      ]
+    },
+    "docs/knowledge_base/Вевис.txt": {
+      "sha256": "9f76268eec0bf33ae389723eb2a596d307d8bb7aa1f86a4a092a32fbb856d02b",
+      "size_bytes": 3022,
+      "mtime_ns": 1794600134865355442,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "e6ac82c573342c19cd092fa3d1b1f466a059a4db77fb06e5a06d7b44f3922d04",
+        "06f7a949d66c2048ff127409c86985670d622b451a32583f8221f9ddb326e3bd"
+      ]
+    },
+    "docs/knowledge_base/Веден.txt": {
+      "sha256": "2c0ec03b1a86b5b07f537bd4c1eb2f45e1f1135b30091ab484d1264e1156c15d",
+      "size_bytes": 1380,
+      "mtime_ns": 1794600134865637321,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "849d5b5a4db96bb6a09952bc017c0fa0155a4831aedfbdf9532102099b84c2a0"
+      ]
+    },
+    "docs/knowledge_base/Векор Вейл.txt": {
+      "sha256": "b14c8737bd483a61c049e7ed92788b50004ff3b6d2945d34cb7759cbde2134a9",
+      "size_bytes": 2182,
+      "mtime_ns": 1794600134865920908,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "a22954d94b0d6b2b1973795a762a3031b957d3c5d4ce40de5b8253042b7a42d6"
+      ]
+    },
+    "docs/knowledge_base/Велар Зеден.txt": {
+      "sha256": "6a757cdc8abd308300f7ff0717852b617bd90f0ce436b684572f51ecdec76234",
+      "size_bytes": 1537,
+      "mtime_ns": 1794600134866256288,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "0136109028c245b3b64942d7d5f90b4aeae2d1b7e02e4b9547437f2a3ef30a4c"
+      ]
+    },
+    "docs/knowledge_base/Гарволиды.txt": {
+      "sha256": "61ec007ff5a88f3f2eeeb27d0e0133e0c92dcdeba1d30470e8a73a5ded02fe44",
+      "size_bytes": 2365,
+      "mtime_ns": 1794600134866622501,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "fcd298ac089bfa7a3f38ae6754402675e70fde2f5c01f6b60ec2a31f6c9893d1"
+      ]
+    },
+    "docs/knowledge_base/Гарен Вейл (K-500V).txt": {
+      "sha256": "fc24a4cf40eaa96c03ca20581db0b2d63c95d1e467d57ea0eddcf463fc532976",
+      "size_bytes": 4522,
+      "mtime_ns": 1794600134867184759,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "0fc3ef9d2641f92cf85d6458bce3f209da3ff3cbd0f9ed257fdb163bb8a4a8a6",
+        "cf63c116c58f2b4b8845750b1fd26f1a418216b31dbc6e43f4e80731b9c77b67",
+        "6cff4a9fc0dba4dfd3d1bafdc3d6470cc78ee318746742366f0b26c943c6fc55"
+      ]
+    },
+    "docs/knowledge_base/Гарен Вейл Прайм.txt": {
+      "sha256": "3a2a86376a36814530d84e538881c171dfb54182241e56d00b2353303bdd8cf5",
+      "size_bytes": 4437,
+      "mtime_ns": 1794600134867674975,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "57c93345b5e9e9695f1fbfb274678e147b654350a13880bbda2f38e69c430a7b",
+        "775f4f7efa27119eff1afd3a60569ca99db44813e69585c5ca2066c9e1454dad"
+      ]
+    },
+    "docs/knowledge_base/Гарен Вейл.txt": {
+      "sha256": "4c364c6112f908f841d81501d55969a9fc7822c87c27879347c21a35bcf1f14b",
+      "size_bytes": 4913,
+      "mtime_ns": 1794600134868077105,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "88b38a82f68c51f3454ea1eccc01ef135d346177fe0f7c3a855dd70347ac0eb8",
+        "b83e601edbc5d8437ae7602f8f95283e2239ff0b76dd386d7380b256ff8db991",
+        "dbf3a72113819e381d4b82033bb7c8ee81c65a26e103faa9003c4a7b44b689fc"
+      ]
+    },
+    "docs/knowledge_base/Господин Лучезар.txt": {
+      "sha256": "c5ea4328cacb86b85ed67337ff326109fb414fe2b1b94113937e4fc3305d3ac1",
+      "size_bytes": 2617,
+      "mtime_ns": 1794600134868346651,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "9eced6da2de4038d1887814c126e4a31f163c32c220093b09aaeff9baaa45ad7",
+        "9cceab92a1fc85b2ab0a764088df193731b6825f73dbe8cbd3422d3c19db4939"
+      ]
+    },
+    "docs/knowledge_base/Дайна Вейр.txt": {
+      "sha256": "0f971d810d2f3884fb18e026d3279911cc6c2211883e09127e9811ee8c69194d",
+      "size_bytes": 3015,
+      "mtime_ns": 1794600134868618488,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "a4abf86e93a5f6084574db4d4440eb9f74c90883a47f243bbed77875b4ae0608",
+        "fc76cdc33ddcc2634e407d271678fbcb5b307b3e63c60cf3c47070c5487a3879"
+      ]
+    },
+    "docs/knowledge_base/Дарвис.txt": {
+      "sha256": "4ed65c927b0e4a8b6daefdef201172aeb5ca47cf48ffff6b4f9e5f8ca7ba0840",
+      "size_bytes": 3099,
+      "mtime_ns": 1794600134868883658,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "7dc867a2344b1540e26a6b51937fc78b055baaae1392ccb8120c64e3e11ba06b",
+        "6623ecf94894d999cd741324e7ba419848d0eaa980e6d197b076d3ba6fe41163"
+      ]
+    },
+    "docs/knowledge_base/Дарден Саркор.txt": {
+      "sha256": "41f3c2f8606c2dde996edbaf130ab93625ff81dc668dd94af14bd6d65be94ea8",
+      "size_bytes": 1588,
+      "mtime_ns": 1794600134869158829,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "b32730be3a7e916aa57c03c5a789d261c050af18721d6eaecfb6ed0bb265c443"
+      ]
+    },
+    "docs/knowledge_base/Дарзар Аркон.txt": {
+      "sha256": "7dcdab873f4903887dd0ce56b83403ea20d335239d7f5984d20023ee63f66380",
+      "size_bytes": 2907,
+      "mtime_ns": 1794600134869486167,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "3524c767cd638e817eec8661bd8924627de7582ece748157162f472be38299c7",
+        "74d452419b9494b923c739ba277921c2b85ea132b64dd366ff52262ee2836a75"
+      ]
+    },
+    "docs/knowledge_base/Даркор Талкор.txt": {
+      "sha256": "9bbc80dff3c083e8ac197045c261e2e03f0e12592e3f61763199829a9ada0da2",
+      "size_bytes": 1842,
+      "mtime_ns": 1794600134869841797,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "94004562c4cfb502257ac692d531312be04e397988acd58992af7a9f340fe5e7"
+      ]
+    },
+    "docs/knowledge_base/Дарлар.txt": {
+      "sha256": "815578072db85785621b8d240be3b653c78eded9b5b72d341cfd3f5a73840322",
+      "size_bytes": 1254,
+      "mtime_ns": 1794600134870171218,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "6e3af5ba9ea60a6dc4d6272906e7ad96d46ecd19803ad1ec98ac16abfc9fb67b"
+      ]
+    },
+    "docs/knowledge_base/Директор Аэлар.txt": {
+      "sha256": "007c4c886c23e96c33f7b389597fa4b9e7b0d18882ef4f7ecbd5bffc8f1be850",
+      "size_bytes": 2975,
+      "mtime_ns": 1794600134870484181,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "ad93478b15ae3b420ecbb7dae6d5e7d4b590639cb608bf1094a30ae0f03a3743",
+        "35606a1efb2f60947fe29f0037852879afbfce19ffda16040d5a5195152cab3e"
+      ]
+    },
+    "docs/knowledge_base/Доктор Аэкор Лайлар.txt": {
+      "sha256": "f9f37f264f8dbecaab3e7a0b65a140be2e9f80aba8b830c33b3336a9b93f1111",
+      "size_bytes": 2286,
+      "mtime_ns": 1794600134870791185,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "3f1af91870edb8e4517cc9a8bed7d320e0aa33bb9338a1309a6a340eee3e24f7"
+      ]
+    },
+    "docs/knowledge_base/Доктор Парлар.txt": {
+      "sha256": "c5f6ef725e596f51d9361dfe93851699fda963ac659734279eb32361febcfe12",
+      "size_bytes": 2609,
+      "mtime_ns": 1794600134871090814,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "0405a20580fae9b953481726a25259797e9cddb66a2a44b506f613577a8a7e00"
+      ]
+    },
+    "docs/knowledge_base/Единственный Истинный Лио.txt": {
+      "sha256": "658ad7c8839c4fe61eb3f37f45aee2cc0a686787dc6e9f7d9f2127e5414a3f56",
+      "size_bytes": 2434,
+      "mtime_ns": 1794600134871404235,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "a86265be432626a54903a9639fb6597da415f74346f9d8eb34350ca5f8625868"
+      ]
+    },
+    "docs/knowledge_base/Зезар Кайден.txt": {
+      "sha256": "2a518be9f2f8b9103539d30b0e51665cbfad5cd6d1c7c57e50d026853715d97e",
+      "size_bytes": 1054,
+      "mtime_ns": 1794600134871673197,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "55f39a1cd32198591851d3156c16acb13a02708a62419c4aaf5e994a29bdc991"
+      ]
+    },
+    "docs/knowledge_base/Зелар.txt": {
+      "sha256": "ef6a44b030c0eadd409d93c84cc927994f78939e094a16f1932e8ddd9105c4f6",
+      "size_bytes": 3374,
+      "mtime_ns": 1794600134871925909,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "7cfe0073aa45323e9f82da8f799cccd9b16ba8b48959b9501e5ca43ee9c720b7",
+        "f71b48c2708819f4b570a3c7001d745f89c054c0c4f651472a9edaa9f2b6b401"
+      ]
+    },
+    "docs/knowledge_base/Зерониды.txt": {
+      "sha256": "613312f7c21a9d682501aef94ee372c3dfa642a6439069e9556789af51addbf8",
+      "size_bytes": 2074,
+      "mtime_ns": 1794600134872242330,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "3439a9e84aa7910cec50b436980a5e6373240f299434c8c75f2dca1de83286cb"
+      ]
+    },
+    "docs/knowledge_base/Зета Альфа Аркон.txt": {
+      "sha256": "3bfa05a0b428225632f6a7c1489a44706da62adb5c0911a9505351b648c81d03",
+      "size_bytes": 1040,
+      "mtime_ns": 1794600134872531085,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "120b1f949ab4a1654fbef3bc9daad060ddd33cf84db4e8537b666b5e7b1a12db"
+      ]
+    },
+    "docs/knowledge_base/Зигариды.txt": {
+      "sha256": "b244836c053ff388b867133a469515178dd5f9c935ce1a2f8e87ce56b90fb9a5",
+      "size_bytes": 2594,
+      "mtime_ns": 1794600134872807463,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "7db64f4b5051dc959dee38729fd218ce61bc8ee12c592827780608339fcc9d47"
+      ]
+    },
+    "docs/knowledge_base/Зип Лайвис.txt": {
+      "sha256": "8a4112efc5eff2692db6c175a19748405d46d312565c7cccd6d33a815fb48502",
+      "size_bytes": 3325,
+      "mtime_ns": 1794600134873102967,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "88a2abcadf7bc0dcf6add64226390a3aa30bc6afd88deb9032d1158431bd072f",
+        "b208763d560eb2d0d7cc11cbacb45807d692abe15b7a27eaa5094e57e8eec7fe"
+      ]
+    },
+    "docs/knowledge_base/Ирзар.txt": {
+      "sha256": "88939e33b605aa6a11df01311919aa384afc00118f749ba90ff1e2f54200c833",
+      "size_bytes": 3456,
+      "mtime_ns": 1794600134873417055,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "ec27c771ec1ff8b60ed20fa91ee2d19005c1bf788ebedd5964e7e2c5ffc38607",
+        "189ef88cde789e35db749685e47edd21f912d075ad57e65df83dc0e37cbda9f3"
+      ]
+    },
+    "docs/knowledge_base/Кайвис Орлар.txt": {
+      "sha256": "a3002196fa273d4a3c2733c31aef2a8eefc863591db8b7403aff72075361d5bf",
+      "size_bytes": 1823,
+      "mtime_ns": 1794600134873698309,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "4cc8da3c860b83d3111caf10cf16fe70010c124c9883bd76ae7b3e5438ad18ae"
+      ]
+    },
+    "docs/knowledge_base/Кайзар Элкор.txt": {
+      "sha256": "bf2c438b33999c6d4e5dcc431e8fcd41988fd589fef0259c0de1a83e14cac2b5",
+      "size_bytes": 1515,
+      "mtime_ns": 1794600134873964105,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "78731bf74db730fd2cf9b551109be030f54826d075e42b54defea553aa9e66eb"
+      ]
+    },
+    "docs/knowledge_base/Кайкор.txt": {
+      "sha256": "89633d83987c221f7e39f24f63628316271956bbee3ca4d3d101c2fb66ce2e57",
+      "size_bytes": 2254,
+      "mtime_ns": 1794600134874243483,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "cd5ae1f49216bc35947ae9ff911c46bb5879493326d467c87deb88c0b3fe26ef"
+      ]
+    },
+    "docs/knowledge_base/Кайлар.txt": {
+      "sha256": "92be2fcb863ac174a773d6ddb69c11fe15b017e35a68ea287084551b19166d5d",
+      "size_bytes": 1745,
+      "mtime_ns": 1794600134874539154,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "35aae5464f135d56a86b0b131b48a3a021f5f81015431061034df976e957cf73"
+      ]
+    },
+    "docs/knowledge_base/Квантум Аркон.txt": {
+      "sha256": "6465cdbb2a49105282539d67634616d0816c7f26188245e740c5348f4558e1b4",
+      "size_bytes": 2276,
+      "mtime_ns": 1794600134874812200,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "475f88b3c3b536ebc769fb2c49fdc7a5e4a4551eae2ee4b038eccb796eae1fca"
+      ]
+    },
+    "docs/knowledge_base/Кваркс.txt": {
+      "sha256": "9140069f3bca528de1f1dc06de2b5cbd291a82dfc0b56fcdc6be7eae420934a7",
+      "size_bytes": 3577,
+      "mtime_ns": 1794600134875069870,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "ca9240fc55514ca6932e313364c126ac659027afed78aeeb98263be491e84f42",
+        "fdca31d31622f2184b14b5ea77960f085d4cc5e8d1931aff547297fd38d1a018"
+      ]
+    },
+    "docs/knowledge_base/Клинок Ардис.txt": {
+      "sha256": "a01ac8f0791b544495d11d35a8bea41a3250cee49c14f5dc91b6c42b65f06bd2",
+      "size_bytes": 1163,
+      "mtime_ns": 1794600134875664378,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "c2651dd9a02d9b22bb0dbf87caf231f40cc72f2a5e5059d5a6a6c28ae32c5ab1"
+      ]
+    },
+    "docs/knowledge_base/Клон Церден.txt": {
+      "sha256": "3fff5487b8abe9532bbd1a2dbfef7d40c6000b7997de324e854836715cbd314e",
+      "size_bytes": 2350,
+      "mtime_ns": 1794600134875979841,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "7a337261b3544aa310157a76945c4c6b5c7b6920315ac5b9b66236781e95d3a8"
+      ]
+    },
+    "docs/knowledge_base/Ковбой Аркон.txt": {
+      "sha256": "0202082180eb37c865d0ea1b5704e781451ab78042fa46f65b8e297776323731",
+      "size_bytes": 1915,
+      "mtime_ns": 1794600134876246512,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "3640d4097c9f54ed4ebed22cf7980c8d9ad9cef17212179c2afd704ad60052e5"
+      ]
+    },
+    "docs/knowledge_base/Ковбой Лио.txt": {
+      "sha256": "53ff02d87332a5828761af8e48fbb15f32f740504f856815b4d21b2484be8790",
+      "size_bytes": 1299,
+      "mtime_ns": 1794600134876503640,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "8516c214f56438524e853aa8a54b1d798e6df4f576e549327b10e80cde88df14"
+      ]
+    },
+    "docs/knowledge_base/Конкорда.txt": {
+      "sha256": "14c93624abfb6be31dfb176a5ce5a2038cd0473ced8b6984994d92741eebd553",
+      "size_bytes": 1926,
+      "mtime_ns": 1794600134876780186,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "13272964f6bb2d57182b38f3b813a87425974f0bafd1793872edb0287645342c"
+      ]
+    },
+    "docs/knowledge_base/Консул Орбитальной Коалиции.txt": {
+      "sha256": "7609f8d217c1afc633b6dce474ed13b3c5f2def4d6ff86398f5feeb5beeb2f1c",
+      "size_bytes": 2529,
+      "mtime_ns": 1794600134877081440,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "9d1d7ec1555e78ecb53492c6520aad3bbf21b77edebdbe97d774b635ce056247"
+      ]
+    },
+    "docs/knowledge_base/Корвалианцы.txt": {
+      "sha256": "ca1516cdcd984a39dddf481f07ce76cd516df4fe89d7dcd657b9ca60d07ce6f5",
+      "size_bytes": 899,
+      "mtime_ns": 1794600134877348985,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "fdc57cbe4cff830fd3bb2e79518b3e42a62f0c9bd35156b968c63f5ba99b577f"
+      ]
+    },
+    "docs/knowledge_base/Корвис девочка.txt": {
+      "sha256": "b94d96372c7e59d80bb8d9d64ca90b8ef07f84ec065202439a8829389250effb",
+      "size_bytes": 848,
+      "mtime_ns": 1794600134877600864,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "d8853386b1f9717787338b111a1c924be2608c48d9d9294a12488388e62bf929"
+      ]
+    },
+    "docs/knowledge_base/Корден Норден.txt": {
+      "sha256": "17dedc53a8351b7ad3adffdc35ac7f3c4af96773004ba2363052f0ba794517a4",
+      "size_bytes": 2450,
+      "mtime_ns": 1794600134877872701,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "9b71c5c506278b7492bd0db701c1434f56b8c1078cc8125595f35e342f9294af"
+      ]
+    },
+    "docs/knowledge_base/Корзар.txt": {
+      "sha256": "f6dd72567f1c462ec7d26d2ae4ccfd9f7fd0c6066413f3e6c16ae45d540e4e3c",
+      "size_bytes": 3148,
+      "mtime_ns": 1794600134878274748,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "fe92512aff82f666a4e4f33edad8638ee53f809f370cec8f38ef33e0c897adb9",
+        "1e93f1cb2988de7453ec1f20096ea4302b2c4f9bf343e2b1d54da67435ad913f"
+      ]
+    },
+    "docs/knowledge_base/Коркор Ирден.txt": {
+      "sha256": "d01428f18a5f72c8d79869d087f9be961660912e9de16e0ce95627cc175ab97f",
+      "size_bytes": 2557,
+      "mtime_ns": 1794600134878628212,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "75309e813efce6596bf06e1142168ddbb1ce2b2554f7610ae34bbd38a88416f2",
+        "8739fa66fc058fbb835444ba661baca1039df81dff543a4f155e9683c20e3519"
+      ]
+    },
+    "docs/knowledge_base/Коркор Ренегад Звездный Солдат.txt": {
+      "sha256": "bce69b2751992a0a357be1c1a46e8dcac55cce77c4c9cc19218a95fa6fb50694",
+      "size_bytes": 2454,
+      "mtime_ns": 1794600134878868715,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "738fc1339938734166785a74d7b91836f043b36ba2aa775177aa1892eaeffe0f"
+      ]
+    },
+    "docs/knowledge_base/Корлар Ирлар.txt": {
+      "sha256": "6d7b18e6a4fd433e2bd00941fd89480efe4f33e7fd9d1b4abfe49ea6e5ccc136",
+      "size_bytes": 1140,
+      "mtime_ns": 1794600134879094093,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "0e8ffa950db09a2f72a28aee169325c8e6a4305f4f260696c728b620e0d616a0"
+      ]
+    },
+    "docs/knowledge_base/Король Ирвис.txt": {
+      "sha256": "9e0ca398a209b3ca557b74ce30f4c0da8d7471d56c7a0722bfae3f255f78f391",
+      "size_bytes": 2376,
+      "mtime_ns": 1794600134879293263,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "eb93b527ed24a1f2d22370f3a860bac1c834a75331fef0815ed38197197964f1"
+      ]
+    },
+    "docs/knowledge_base/Кочевники Пепла.txt": {
+      "sha256": "f607e374cb4bd3d5c654a3971e90cbb04bd8c708aaa2571c31cdfdf639c8d110",
+      "size_bytes": 1721,
+      "mtime_ns": 1794600134879496182,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "86f692856b37b883a0f20f628f0ae9ec04ebfbce86e9e7479dd56987f655d221"
+      ]
+    },
+    "docs/knowledge_base/Крионцы.txt": {
+      "sha256": "bcfd4eb2ebc7a4e8dcae50010fe0647445c32364c7276fe0ce517770a71d0ebb",
+      "size_bytes": 2026,
+      "mtime_ns": 1794600134879717685,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "9cc3b98914a964af24349996e7d000dd1232ca9f21c214942747eed999ea4bd2"
+      ]
+    },
+    "docs/knowledge_base/Криос.txt": {
+      "sha256": "b2f55b80a7acc23246e8a08590e96bbfa9a5492faebc05672b41576906e3776e",
+      "size_bytes": 3219,
+      "mtime_ns": 1794600134879946897,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "437131409ab8f44f9de96423adff4668de6c8439c311e523fa2cae42c69a3ead",
+        "751fd5195672fcfdd9b04ff17c0138929b36d0d14205a5ece77b0ae7b8c57977"
+      ]
+    },
+    "docs/knowledge_base/Куратор Эйдос.txt": {
+      "sha256": "2a272e9037dacbd95ee8d0b7bf2db9ff5e646a82cf22d20ca55abbf92e1d97ad",
+      "size_bytes": 3771,
+      "mtime_ns": 1794600134880162067,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "3d42f2c1333fd8fb2091b8a9ae8cda7f4b453e2409cd5399e7b19fd679fc485a",
+        "e56815822bcbbaa646a101ac45d6a262e124d8c4b629f34d2cc5d104186be617"
+      ]
+    },
+    "docs/knowledge_base/Лайден.txt": {
+      "sha256": "250cd2705d0a0b3896152f5656e393c71d4caa50427a25a50ae920492ab616ed",
+      "size_bytes": 1155,
+      "mtime_ns": 1794600134880369320,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "02dd5acbcb5bdc52d07b4793b68620eef70607828f94f4e9e5d2d8c6a986e232"
+      ]
+    },
+    "docs/knowledge_base/Лайзар.txt": {
+      "sha256": "dd20a3ff0084cb7e82f1e42a3e7b51c3ccfac7aae848803607b2f7da8d72f19c",
+      "size_bytes": 2694,
+      "mtime_ns": 1794600134880582447,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "269bf0fea3f0ee8cd6f2bcd844f9d25dbe89c2e87a0e7ad82eea88e3b5e263bd",
+        "23336252ea472fb7ca8dfe8580c75c40d4f673816c2cb9fae1a3dc58eaf78f5a"
+      ]
+    },
+    "docs/knowledge_base/Леди Рейвис.txt": {
+      "sha256": "cd3572226b43c8b3706043b7b455fbe26305cbcec7eb1d00b43f25c1454227d7",
+      "size_bytes": 1602,
+      "mtime_ns": 1794600134880800076,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "3c55654f663f73d8bf3d94bafd05e3b3300e62aefb2aeba2d32a55d152fbcf6b"
+      ]
+    },
+    "docs/knowledge_base/Лио Вейл.txt": {
+      "sha256": "6474aa2fbde1964865ab248e03d94d375b613b15accb37b1cf6db3627f722737",
+      "size_bytes": 5362,
+      "mtime_ns": 1794600134881119080,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "c4daf57173461cc93729147f8715206d07ba6583b839c99fbff44da2a3ea3a8d",
+        "c537e0c5224847726f7d17c70ac088c61d0c8e5a219fcc0f1e6793fc71e635e0",
+        "f5fa8d4f68f40622a6b8cbe6eb26032eeff37807fc160767b8f03ab66c7b453b"
+      ]
+    },
+    "docs/knowledge_base/Лио в лайкор Рейзар Норзар.txt": {
+      "sha256": "63d0789fff58a6f6e594155566552594efb7b8ca096db37592405ed2d7aecd3a",
+      "size_bytes": 1175,
+      "mtime_ns": 1794600134881343333,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "a8db523d437c5387e67a96bed5cb43c9420bb92143bfd5b49f2a12d83ca8bf8a"
+      ]
+    },
+    "docs/knowledge_base/Лио-меркор.txt": {
+      "sha256": "b3cec65fc9a74280af02975354315a615a597ad8472774d90cfff3cdfc4e19ea",
+      "size_bytes": 1665,
+      "mtime_ns": 1794600134881580378,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "e4e4208dac46dad00e385d9be95ca6e0c21c0c8c37dec4abf5f03cd0929b7661"
+      ]
+    },
+    "docs/knowledge_base/Межмировые мимикры.txt": {
+      "sha256": "0dc598bd16ba30c3cef47ecdf287f21c0b8e5f739856783af7697e781a531997",
+      "size_bytes": 3232,
+      "mtime_ns": 1794600134881803340,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "1ee0c37f1523300ff210f21d7c99b6730f727b8c9966492c19307e8341544e7d",
+        "36c858c817f7ff8db4fc18bb9b5bbc9f2d933b7190726f6436fb8816ba589e58"
+      ]
+    },
+    "docs/knowledge_base/Мелкий Аркон.txt": {
+      "sha256": "78fc02f29678f9ad841d3526c66464cc7a6b721b946b8f18e3a7e28d3639653e",
+      "size_bytes": 2151,
+      "mtime_ns": 1794600134882014967,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "77c010666a518c4daacbd33ee70b6278018f4cac031bb4b6ed3eaa3b48587bdb"
+      ]
+    },
+    "docs/knowledge_base/Мервис.txt": {
+      "sha256": "32652ba258686943085aed55e76321cb2927512b7afae6ce530d7e3bcb2eac79",
+      "size_bytes": 3806,
+      "mtime_ns": 1794600134882231471,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "f49181acbde0392fc93dccf8e3669d3bf2eb7ec45466991944fbb4758fb37900",
+        "4e050fccb9df4a0d6cd35b3548e13a6ec85637d5af4527198c942d21aaa4d43a"
+      ]
+    },
+    "docs/knowledge_base/Мерден.txt": {
+      "sha256": "a89d4a5106eef7e90388ec6395a990f242ab89514c22ee3d670da0663a929b36",
+      "size_bytes": 2529,
+      "mtime_ns": 1794600134882434765,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "2c983e11325b0b8d316a36a3edbc10a05c8af919e9ae1bfb29593e1014c293df",
+        "603ee565c9e2e217bb9dffce04d84bec5ec7d1883c5a334a1576e8df6703aae0"
+      ]
+    },
+    "docs/knowledge_base/Мерзар Аэден.txt": {
+      "sha256": "dd1938d918744fc319e3961f82cc48934a6500fb07c0f383c85b853676cd0a15",
+      "size_bytes": 946,
+      "mtime_ns": 1794600134882637726,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "92fb5371b0bb4918b4551c9e21aee62d3ae6a228454f6272ea03049e1730ff3a"
+      ]
+    },
+    "docs/knowledge_base/Мерлар.txt": {
+      "sha256": "1a65e85b423d107fc1c89a0215f38a942be5ef84189c782dc6d90cb797fa83c9",
+      "size_bytes": 2301,
+      "mtime_ns": 1794600134882828604,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "c148beefe53faef61eda94765cec24f4f66d913917e36ccdc9d2e3c8de874ccc"
+      ]
+    },
+    "docs/knowledge_base/Миссис Церкор.txt": {
+      "sha256": "7928f3eaac498e7b839496b768d6321b3efaceb2aeef1d27cc1379471652793f",
+      "size_bytes": 2612,
+      "mtime_ns": 1794600134883021023,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "6d595f0d93e8d82d506c7021220bcd37e36846cb2684289b23e50fe2d6f86dbb",
+        "6a2688d7c4e92d85174730757f29a8898ce8f7a85e65b2efd0778b38eca2f884"
+      ]
+    },
+    "docs/knowledge_base/Мистер Везар.txt": {
+      "sha256": "7fc6d96b0d97b2ec869bbf8aa3903ac47c03414f133eecd21a91729a9fe5863d",
+      "size_bytes": 1388,
+      "mtime_ns": 1794600134883230276,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "b7e1f53fdccc91d2a6abdad33430c871c8d2f779af274672c49fda404f442f07"
+      ]
+    },
+    "docs/knowledge_base/Мистер Таллар.txt": {
+      "sha256": "346688aab610175a05f371071493fccbaad38f7593d450f55b36617e619b3d26",
+      "size_bytes": 1700,
+      "mtime_ns": 1794600134883437071,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "d3e7d505548bea8a34761db43f7a26639cc6c9d7035cf0b23e60bb0907f87d5d"
+      ]
+    },
+    "docs/knowledge_base/Мутагениды.txt": {
+      "sha256": "aadac9bfde1572f619ad2f9f730f2e89a9f3bfb0d797f57539bd3fabe9bfce19",
+      "size_bytes": 1487,
+      "mtime_ns": 1794600134883633615,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "962b0d513d0772e31dab9ca721064a0039e159abc0f2bfd687a81ade49963520"
+      ]
+    },
+    "docs/knowledge_base/Не паркор Иркор.txt": {
+      "sha256": "944b8654aaff48cd9d75fdfc6a24cd364e2563c93678f8caecc6485287ef4a94",
+      "size_bytes": 321,
+      "mtime_ns": 1794600134883929078,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "7a7df13aae9196848694232a1108c516dab47c94256c3fcc7c5f1ab3f157f33a"
+      ]
+    },
+    "docs/knowledge_base/Норвис.txt": {
+      "sha256": "37b4d52aacab7488c2f8ea6eed96efbd0b7cd5dc5b5f2001356e824d3f1cd825",
+      "size_bytes": 1872,
+      "mtime_ns": 1794600134884132831,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "2f34e5c5114d0f14f3aa40b802dc77c621f9e586d67ee0a645a51b604ff42a91"
+      ]
+    },
+    "docs/knowledge_base/Нэйра Вейл (K-42).txt": {
+      "sha256": "643a27c84cec708a98103ef8418efb2a8e135e3b655924b7376a91dab0f8a995",
+      "size_bytes": 646,
+      "mtime_ns": 1794600134884317458,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "ae59286e7436ca981625836e57bae7442f88c20f8e59d8e39554aca8546b1e56"
+      ]
+    },
+    "docs/knowledge_base/Нэйра Вейл Прайм.txt": {
+      "sha256": "113389c0da019606420ef16de204e9f64552d75196d82cf208157cedcc28d250",
+      "size_bytes": 6318,
+      "mtime_ns": 1794600134884634546,
+      "chunk_count": 4,
+      "chunk_ids": [
+        "99d4fd3eb57b3ebba2ec22142c0ee65d1a24d1164fbf3626e820e767db2e08c0",
+        "44452bf7ceaa004eb87c06edfd7b7a34f8a2f98777488382933fd6296388e464",
+        "60048369f0f9f53c3f1b80a3cc67a8087ba0b6b9d2ecc1abe324348487cadef6",
+        "f2445fac2e2a5cb260400a0c3eff4ba6e2007d64980d2c8f72ae3339ac205d8b"
+      ]
+    },
+    "docs/knowledge_base/Нэйра Вейл.txt": {
+      "sha256": "91130aad8c3fbb0ec0ae344edf8cd79b157af1396c896004964ccfcd7bca481b",
+      "size_bytes": 4489,
+      "mtime_ns": 1794600134884964759,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "81715db7881c8037a02adcfa5bda6e6b80085b9d1a48141a7a0645fa948f819a",
+        "50a1708f389a5af69d1c95d9162e961f24b235f19ed95aa5e7b42a8881158ed3",
+        "b2d4efd3f66484fa67dc8cf127eb19092deec57cbfddbb5472c9a2984d570fdd"
+      ]
+    },
+    "docs/knowledge_base/Нэйра Вейр (K-500V).txt": {
+      "sha256": "716b2f51c3a10d6ee39fddea369252f47b3e6e3e33c7024412417db221ededff",
+      "size_bytes": 3373,
+      "mtime_ns": 1794600134885181220,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "ed81e7ac2851811c83b3fe078385bd04202be86242ca04dcc6937ef30bb023bc",
+        "e18076b3e11347fb344f9dab4866eeaac5dea66d99b08c8fbba83484f9e2a783"
+      ]
+    },
+    "docs/knowledge_base/Орбитальная Коалиция.txt": {
+      "sha256": "c15e609d42111fcae799d886f0335f441bb07a6f678b212b67138bcaca4352f2",
+      "size_bytes": 2233,
+      "mtime_ns": 1794600134885397598,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "05587ac25375ddea7e3f16286dbce94bb26c01ad2125a9b70576c8e5286aa3e6"
+      ]
+    },
+    "docs/knowledge_base/Орвис Том.txt": {
+      "sha256": "8fd09140340624d0a843c8d738bdb13433bb45048777d1a9f5f7beb9efd03b68",
+      "size_bytes": 1552,
+      "mtime_ns": 1794600134885591768,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "196629c14a84fcbff4a03b9eaf4558357f0ee4755f65158a525448c254b57e8e"
+      ]
+    },
+    "docs/knowledge_base/Орден.txt": {
+      "sha256": "01e0c5607ff56b9259efa60e087565b89d7c7186d9097cb989c2e68f2d2554e4",
+      "size_bytes": 1579,
+      "mtime_ns": 1794600134885783479,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "ac1a899a6bd892f87fc5bb668e36c94ef55471ff70d900dabf7c56fa033a05f1"
+      ]
+    },
+    "docs/knowledge_base/Орзар.txt": {
+      "sha256": "5a5359432037f96807fd19c64575124d8a7ec5f8b485d1ec6f0a111f11be95f3",
+      "size_bytes": 2142,
+      "mtime_ns": 1794600134885981107,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "0c39bfc6d5ef6df85fbf16a4a4ec31f90779a012159521e520b92ec273e25d32"
+      ]
+    },
+    "docs/knowledge_base/Оркор Лио.txt": {
+      "sha256": "1ab2ee178965a5079fbfd4111ea95c7f7a11ad5805f39afc5e9fc44cb90eeac6",
+      "size_bytes": 2416,
+      "mtime_ns": 1794600134886185901,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "79f760361357f871b70c63c59eae84841ce1e33bfcf62814e0bd6ab7629a4b27"
+      ]
+    },
+    "docs/knowledge_base/Пара-Нокс.txt": {
+      "sha256": "364bce8a7b33da52386db2dca0991baaa105c416a16e4a140748cc595ecc0a2d",
+      "size_bytes": 1161,
+      "mtime_ns": 1794600134886389946,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "b5af8585e2dd77eafd67b2275b5294793ff8f8e0a7c4272d77627aa378dab6f3"
+      ]
+    },
+    "docs/knowledge_base/Парвис.txt": {
+      "sha256": "69b03476984c80682f18366ff93d35982f525d3d66c7ae36d5b4767e3c1525f1",
+      "size_bytes": 1241,
+      "mtime_ns": 1794600134886609199,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "e32ec4f0fe44fbda90ee36bfbea065d80ef69a52ca06c7067ed6eaad283bb998"
+      ]
+    },
+    "docs/knowledge_base/Парден Фейкор.txt": {
+      "sha256": "2aaf3bad6035c80b54a7e1a1c4ee1372bee606c3e15c1c98071d9e26349ffc2c",
+      "size_bytes": 2437,
+      "mtime_ns": 1794600134886814577,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "944b54e4cde136601d4a380630a216e98ab46d29b906b674a09aa6eff7d10c21",
+        "bdc62a60f7ad275c9835c6aef32bb1af6716fe6644e93eebefbc6fdde09c7529"
+      ]
+    },
+    "docs/knowledge_base/Парзар.txt": {
+      "sha256": "7c52955aaca45c8722f7bba7b615a3740f2cfb12bc835bd25c478f06f992764d",
+      "size_bytes": 3899,
+      "mtime_ns": 1794600134887009329,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "412f72bb1ef1ec13981edc27ef1520f5f5cf4de00f5c55c75d0e2c68855e9098",
+        "666ba219c12475c12c2b80446143bfa7c2516bfeae4e8e2f543452e19c7f79d8"
+      ]
+    },
+    "docs/knowledge_base/Персона Аэнор.txt": {
+      "sha256": "432343d4f0f4ad54bd3e6b57625e1ae72ad8d13fb6ec5d19ae08b61f636bc103",
+      "size_bytes": 1367,
+      "mtime_ns": 1794600134887204915,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "115a98b0cd8037997638c4d7836546ae9cef06a3c110c4a6b767c4c5e1a0acd5"
+      ]
+    },
+    "docs/knowledge_base/Персона Ирмир.txt": {
+      "sha256": "b8fc8120ed55a53a105d146176859eaded8b128f3822cd5754be112b6b081eb5",
+      "size_bytes": 2108,
+      "mtime_ns": 1794600134887397501,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "160e9761cd4960fb2d5db9b5816219d82a8bc62742af50b2901d3e0a46e9259a"
+      ]
+    },
+    "docs/knowledge_base/Персона Мернор.txt": {
+      "sha256": "3a8e82d2d8b47063fd0af0ff058367630d5ad477244ead944fb4b2a957bbb3e5",
+      "size_bytes": 3324,
+      "mtime_ns": 1794600134887617380,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "41698c5b9763e2d21749fef6b8f1db31030f1e68cc6994ce6a47801491b69483",
+        "ad582a809ee0078ac7979e98e46294ba14a689a0eae159a5a8f95c7955326c51"
+      ]
+    },
+    "docs/knowledge_base/Персона Норнор.txt": {
+      "sha256": "921e41f2f8e964745ee1c21403add43262dcaf4718735bb182b95ecd5e19ec51",
+      "size_bytes": 707,
+      "mtime_ns": 1794600134887820757,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "46ff939507ebb607f2e5056b86750b23ad9928aa21d9474283434f764f56bce5"
+      ]
+    },
+    "docs/knowledge_base/Персона Парнор.txt": {
+      "sha256": "e8c538444398e5763f67417d14d24924bb282b6e291b1aa1d5594271065b0c3e",
+      "size_bytes": 2241,
+      "mtime_ns": 1794600134888014552,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "3cea3bf212760fee24858daa9736b11adbfab692ad3e817ed70c1835cde78667"
+      ]
+    },
+    "docs/knowledge_base/Персона Урлор.txt": {
+      "sha256": "d046f1fd856cbd81cb42a0568011a5029c808ec0acb32bc109467a345c80ff2c",
+      "size_bytes": 1639,
+      "mtime_ns": 1794600134888227305,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "c696af844da5e5b6e5cd18c5365fc37522b1531528d8ccafde450ca53bbaf7af"
+      ]
+    },
+    "docs/knowledge_base/Персона Фейзар.txt": {
+      "sha256": "d81140e6891ddb7b0ad53398612bb95954b04e4a6980aa79e8fb203322713d94",
+      "size_bytes": 4817,
+      "mtime_ns": 1794600134888505142,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "214d012144ce361b7849376675a740595ff6baa948507c9c78c84667e8a345f5",
+        "bf88d67d0f5af8661205d286e8287e9c65c561bf0ae58f853f5e66d21a051c7f",
+        "f1c4b244739b717080a5b651f9f9ef1c7ff4e085e2eb9039871afb9c3ac696ea"
+      ]
+    },
+    "docs/knowledge_base/Подруга Элары.txt": {
+      "sha256": "92f157c5c4da44319b8d219d955c64863acc75a883d624da58b105be50ee3f3d",
+      "size_bytes": 3192,
+      "mtime_ns": 1794600134888703936,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "0b3ac2abeeff9a777f073d992c55d5515729df1139bf12d44f00496298923024",
+        "40118f7e8bc76cc6e062f7ac2a2d3efece4c079fbeb223b4c8ef1841b928ee25"
+      ]
+    },
+    "docs/knowledge_base/Прайм Аркон.txt": {
+      "sha256": "b2ef6357c561483ab23930474b2b16b18cf7352f51d1a97d56126c74eaaa0e58",
+      "size_bytes": 5230,
+      "mtime_ns": 1794600134889002024,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "0279999dfd653357d7b564afec5dfb560f8246de4f6de1967a2f997fef51bafe",
+        "4069fcaadfb3c204ca9d6130c62468ee5e7effc2074a84aa15171eaef62ae085",
+        "c0af802a00dcebf47069b492fe3e6539e5a3a57155c2d8623c3a2640fb5d7df8"
+      ]
+    },
+    "docs/knowledge_base/Рейден Норкор.txt": {
+      "sha256": "8ffe6ff6c554cdc70c04746e9439b7ab348a5717a9c1013570c68bf882dbadbf",
+      "size_bytes": 2266,
+      "mtime_ns": 1794600134889185860,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "3e2bd50fd4e8b8a409769d1a0504e7f4fa64d066ef1ad0de4728c808120b5144"
+      ]
+    },
+    "docs/knowledge_base/Рейлар.txt": {
+      "sha256": "564f73a573617f314fc5e5d1e4a826d46be5b909ee1aa1d1c828eef89e7954f5",
+      "size_bytes": 1656,
+      "mtime_ns": 1794600134889368112,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "4cce49132478f09079d841e381dab048893f92c167103674eb78c4efd303b110"
+      ]
+    },
+    "docs/knowledge_base/Сайра Вейл Прайм.txt": {
+      "sha256": "d1ea513425a310bd49ed00e91ae9f4a70a4cc80072c0d4875b51aeb992eaa9a6",
+      "size_bytes": 1463,
+      "mtime_ns": 1794600134889569740,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "83f6aa1967d46504ee8b44bf7d2915d85f36c1d79c972f5e57450f7d8878757b"
+      ]
+    },
+    "docs/knowledge_base/Сарвис.txt": {
+      "sha256": "fbb139e0dbd0ba0de798155e9975580141ef6e8173d1a5fa4b04a16dbe1f8559",
+      "size_bytes": 894,
+      "mtime_ns": 1794600134889744201,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "9bd76c9137d91c7dcfc8d8380f218493cbd6cfdb816b169642ace7c60b51e2f9"
+      ]
+    },
+    "docs/knowledge_base/Сарден Фейлар.txt": {
+      "sha256": "935cda5b328aa9d20cc1bcb6e2a0a8efc55b0b0e4bfd1600b9f066ca57081864",
+      "size_bytes": 2495,
+      "mtime_ns": 1794600134889926662,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "f949cfbef8a5f5794af720344a9ef9420f66c213375d6830cfe73d3638a13f58",
+        "d5f7a44ab101b55b378ae9f51c357130c8171f0259c65a159ed1a93c8ed08eee"
+      ]
+    },
+    "docs/knowledge_base/Сарзар.txt": {
+      "sha256": "4653570aacf06eaba257deb628e9b1a5333b87350b38599e4ff566c753d111f8",
+      "size_bytes": 1732,
+      "mtime_ns": 1794600134890134790,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "e9fc496f99ad35a601286edf9e5fa402ddfd19124aad48602c4ce1a04df959ae"
+      ]
+    },
+    "docs/knowledge_base/Сарлар.txt": {
+      "sha256": "9e31b7e2601711d0a04d0ff0f74d9e145cdc12ca46a15318016feab964da741a",
+      "size_bytes": 1556,
+      "mtime_ns": 1794600134890328459,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "6798b7e42ef7ad2050c786f7710f8a88d0245b92e4b8110206d3d9743c2534ca"
+      ]
+    },
+    "docs/knowledge_base/Собрание Арконов.txt": {
+      "sha256": "37cff7671969cd2076338265d1b5f2b60aa640df7a3704c0cc7457df1caaabb3",
+      "size_bytes": 3216,
+      "mtime_ns": 1794600134890516045,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "5a69614ad8139ad13d351a32a5b3fb1dd6b2e1ee25f02587d7c66eafa9650ea1",
+        "32dd7ad562b803bfd47fb88d2337ba8e15f5a3553bde415af538e36321f4fb7d"
+      ]
+    },
+    "docs/knowledge_base/Союз Зенор.txt": {
+      "sha256": "6508df4032f28acdaf7381b2a7edc5067271a163513a0b0620c5d54528226d51",
+      "size_bytes": 3558,
+      "mtime_ns": 1794600134890708673,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "ba9eaff870bf2b6b1325efd2853ab501d44e7ac72f571e914b632d800c7cd6b9",
+        "4b22cfa2b325645a42521efbfe88c3faf57398400da28b35985e49cc555dc89b"
+      ]
+    },
+    "docs/knowledge_base/Стражи.txt": {
+      "sha256": "3c71ee169fbeac7c7101773085fc8e7c4cd51edf0d94568319d2df44d3ac8a55",
+      "size_bytes": 1224,
+      "mtime_ns": 1794600134890896009,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "7e84953788cc13014882bbe23fd7bea0723925ffd433d6666ae439c1aa33efcf"
+      ]
+    },
+    "docs/knowledge_base/Существо Нормир.txt": {
+      "sha256": "ac8e7b044565ca1cc3f9530066c5c56cb61bc3a90ed6d70c0f12526e1fae2fe3",
+      "size_bytes": 1967,
+      "mtime_ns": 1794600134891074887,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "fd0a18ee6ec361ecaa331bca5a750190f98905459351dcb80faf946190d260e2"
+      ]
+    },
+    "docs/knowledge_base/Существо Талис.txt": {
+      "sha256": "e048742802c5aa0ef24b51e8d3c6353590cbbcef0198527b4deb06bd40aca095",
+      "size_bytes": 3860,
+      "mtime_ns": 1794600134891262222,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "c924bffca5ae986d41aaa3970153744913e6234c15dc1808ecab1e299c778098",
+        "19246ccb8a612ae6bf19f7757e16ffc2a22b5b1b559f8d86711014056b6fb95c",
+        "30aa8be3bfc35be472df1cec8f62f22e93babef7dea131ec3b05331a206ec34c"
+      ]
+    },
+    "docs/knowledge_base/Талвис.txt": {
+      "sha256": "ead071a4e0c4488ac6abba2f7634249735fe84ddc4116f7133921a5e8c1aa78c",
+      "size_bytes": 2167,
+      "mtime_ns": 1794600134891467392,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "515fde70ad7e1b6aeb49967c3ae803ed30591e2620fc818c9f1f449b6bff0743"
+      ]
+    },
+    "docs/knowledge_base/Талден.txt": {
+      "sha256": "cfc82ba69bdec022c3bde2835eb9839df033eee9524d2fb05d7209ed59bb73f4",
+      "size_bytes": 2238,
+      "mtime_ns": 1794600134891687978,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "35b4f1c09913cf10eb8bc804fb04adf0ec88f4acbeda4b762dacf23db86a9889"
+      ]
+    },
+    "docs/knowledge_base/Талорианцы.txt": {
+      "sha256": "c30b020bb48e444a73e10a969a70d40a15bd113a6dc64ca0b4d055c744802c13",
+      "size_bytes": 2005,
+      "mtime_ns": 1794600134891883356,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "c0cc28dff2276531acedfbed6883e067162028fafa64a0ac6f6cae6ec0147acb"
+      ]
+    },
+    "docs/knowledge_base/Теневой Конклав Арконов.txt": {
+      "sha256": "0e6692e260e8aa1de19194091ed67afe2b2b2c7c6b7e147d7995830eddf2d612",
+      "size_bytes": 1808,
+      "mtime_ns": 1794600134892091651,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "ad4928f45f57ea66a28074ed6a247c8c4c18249f26c6ca36d5c0c0a1e4bea446"
+      ]
+    },
+    "docs/knowledge_base/Токсичный Аркон.txt": {
+      "sha256": "d7febe2d3da9dcb51c7e70bb3c5297a4f4f7282f92529b5dcf07ba3a6e9446d9",
+      "size_bytes": 4000,
+      "mtime_ns": 1794600134892288237,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "8f84ce1e17a6dae0dd237a3cfec98a59e756eb50f16242ff0734a7741a9b1ffa",
+        "7efdd723f45b2a6ea04d2271d6a7114180cbfdc08ea8d14cdb0c6bed17acc398",
+        "737abba9669a0a010ef97f069943867098d04d9241555d4dc948067bfcd0060b"
+      ]
+    },
+    "docs/knowledge_base/Токсичный Лио.txt": {
+      "sha256": "795ae59903735d6f4d8454a85e43eb35628abba7b19728939eaa71f21e741aa6",
+      "size_bytes": 2244,
+      "mtime_ns": 1794600134892482239,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "636d8a219c4e6f0388deec0196f9e766d091a8b2c0982d65c94990a35ad66205"
+      ]
+    },
+    "docs/knowledge_base/Тёмный Аркон Вейр.txt": {
+      "sha256": "2feedad2fc9778027afc033dd67d9fa67be8acffda28944e07da9cf2b68d4014",
+      "size_bytes": 5390,
+      "mtime_ns": 1794600134892915371,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "80f5fc830f39a343f09b8ba74ef85b30695b60ae86fa5e1a8db998630cf73480",
+        "1e83544d5f49f60920f9b2e3c8ad0ee7a2a00a0cdfacae4b62ccf46ec4e3cc8a",
+        "d47f768a84714a602283d5fb58fef436f5ad6aa70ea3988fc1245606f92a30e8"
+      ]
+    },
+    "docs/knowledge_base/Тёмный Лио.txt": {
+      "sha256": "88bdc776849dd64b61738e0604e4023db3d9049414eb2391cbfd79f9c323e423",
+      "size_bytes": 5351,
+      "mtime_ns": 1794600134893217792,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "babb61edbb9cde304e22359ba405c11291e30c3870cf22165e38d58b684cca70",
+        "4b3df3333b5b27e0cd1a6b4d054790b7b7a219e22aee873f82bb4aaf83181cc5",
+        "579b072ec6f561e548e70dcaf5ba312a428c0c21ce53a4571dc739dce1bc87ee"
+      ]
+    },
+    "docs/knowledge_base/Урвис.txt": {
+      "sha256": "60d98313404fd775ece08b12d08d4b0994623031562128dfde5b1793a1456fa8",
+      "size_bytes": 925,
+      "mtime_ns": 1794600134893413544,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "6886cc7c6e698268f2afe8a5c1c5b11a849327ac3f8f8227bf3ef66b2e811ff6"
+      ]
+    },
+    "docs/knowledge_base/Ученый, ранее известный как Аркон.txt": {
+      "sha256": "945ad51b86135e7aee62a8e014d5390818023aa7ed67032492eda110b337eaf4",
+      "size_bytes": 2176,
+      "mtime_ns": 1794600134893604880,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "302d80ccb2c84cf53d4c71fbf9177111e769cb2581dfbf218e035d60f55283e1"
+      ]
+    },
+    "docs/knowledge_base/Фейвис Зевис.txt": {
+      "sha256": "08f686cb38965e08ec1247bfc43a9e0314a53a5c22abe2ee779f1ef79cc3e6e0",
+      "size_bytes": 2708,
+      "mtime_ns": 1794600134893793716,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "595757abc2d78f089aaf5e110fa664c26a70a294e183c89bf3e01cb32101b1a2",
+        "3b5ba62c82b1c3ccd1468b3ed32b6ca5c0cbf6f73046e6f69c65f06d29039e43"
+      ]
+    },
+    "docs/knowledge_base/Фейден Рейкор.txt": {
+      "sha256": "c1312ea430425097302d37ddcadc59d4e23060eb965c7885a72b75f3a0d9f725",
+      "size_bytes": 3218,
+      "mtime_ns": 1794600134894001553,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "bc03f45ca33a13032f82287b7fff56ecb8f2c9da9bc6c6ee4a45bcb52ba8fd60",
+        "f34cbc770dea5626b78094bdd8ee1bae26ccf2ed6a452edc672d2852054e2689"
+      ]
+    },
+    "docs/knowledge_base/Халвис.txt": {
+      "sha256": "f908173f133bc6fc4b57a26b0aa1f97a731cf77feacd2d33dc4439166f15a1e8",
+      "size_bytes": 2167,
+      "mtime_ns": 1794600134894190222,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "f5617092d9a6ba090e3ad8a623feed126ead5dc7121c974eb859252e189628be"
+      ]
+    },
+    "docs/knowledge_base/Халден Урден.txt": {
+      "sha256": "e0eba88e6a9b32fabfb69b83bc69936c977832fa800123d978e4384d687919e1",
+      "size_bytes": 1809,
+      "mtime_ns": 1794600134894371474,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "78374ad6e5baf82d221b0c3c73d0930f6b50f204f027a461f2ae44da4af6406c"
+      ]
+    },
+    "docs/knowledge_base/Халкор.txt": {
+      "sha256": "0a8510504dbf7825cf1de5bd22d677f3473f467240800404ec913c776a228484",
+      "size_bytes": 1704,
+      "mtime_ns": 1794600134894575685,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "dcdb31b36a560e0ca51a9a2ac9d238047999fd958f7a50eaec537c6e6ff908df"
+      ]
+    },
+    "docs/knowledge_base/Халлар.txt": {
+      "sha256": "522dae322e829a7d2c998edefe241aa93dc4b329def6f8f4c596c80a74793daf",
+      "size_bytes": 3039,
+      "mtime_ns": 1794600134894743896,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "eae123b2686c2bf108213ed8eff4ef6784e1a4471d57c7409632ff2ea04a5ad7",
+        "672e37017cb32e135f3840d40bf035cbf3858826d4ef396ac6873ec1418b3e9f"
+      ]
+    },
+    "docs/knowledge_base/Цервис.txt": {
+      "sha256": "7ad3e2d9fa68449a4616c1272aeed8c32a8e8e79f7d26ea2e56345614a7d1fae",
+      "size_bytes": 2184,
+      "mtime_ns": 1794600134894915190,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "259f877d810314481d8d2090b635d1d9d0926ecaef28aee73606f22ec4099044"
+      ]
+    },
+    "docs/knowledge_base/Церден.txt": {
+      "sha256": "fb08ec8b764200f52e18ad16f95fe6f0c9a5ebb10e6696a512db5a4722be6366",
+      "size_bytes": 2436,
+      "mtime_ns": 1794600134895118651,
+      "chunk_count": 2,
+      "chunk_ids": [
+        "c8cdebf91ae21b7dfcf45384ae149c4e18e7ff4e0e315e66f27d76b555d9fe7e",
+        "a1446ae41ab809444b69b8a9338ad8212cc68a5f2e4948e8fabc4e35d51fd3d2"
+      ]
+    },
+    "docs/knowledge_base/Церлар Норлар.txt": {
+      "sha256": "9af80a43d6bce412f10dd16c64ca26fa067cd3f9313c90268e7baee3858f670b",
+      "size_bytes": 4877,
+      "mtime_ns": 1794600134895395614,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "b129a556a9d80cd9a481c07bad5cfc8c7b4b6bd8ecc4008b8f71ce7748b269e0",
+        "0e25a00e0e4d1246a07685a16cfcede405f6262c5c915a5dc6839ca700be9dac",
+        "49e7a5bd9263aadbfc7a771a1a87d1859be5b321dade7ee752c8f14b9ca15af3"
+      ]
+    },
+    "docs/knowledge_base/Элара.txt": {
+      "sha256": "e0795da494403f655b6e6bb822b034e9c4bbd09a3fea19f1bfb28672cca055e0",
+      "size_bytes": 4955,
+      "mtime_ns": 1794600134895671618,
+      "chunk_count": 3,
+      "chunk_ids": [
+        "82d97850495ff687c5e4d9a66855ec441bfe3f3f723f43b93b9f620cc26c1528",
+        "a7f24b4fcf98badd96893af3d691d63671551b54bfdfa8702089bbc4cc6eb8b9",
+        "fd0f4cb36933bafd9e2279a54594b71775e1beb90100e2a6d75bd2a4a5838849"
+      ]
+    },
+    "docs/knowledge_base/Элвис Зекор.txt": {
+      "sha256": "3f29f757532f384cd2e07e4e29788fd8fda45f7d7c4e81f46a2deb3a4c248f85",
+      "size_bytes": 1517,
+      "mtime_ns": 1794600134895851579,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "a9c86a1aa0e8a681dce58ce5181ca24a92ad19aa871ff8517fb62a5acd5a00e3"
+      ]
+    },
+    "docs/knowledge_base/Элден Урлар.txt": {
+      "sha256": "3da53efdbf596a6598712ddca6395f86872b48716cb11216f4d69c7398b04390",
+      "size_bytes": 2020,
+      "mtime_ns": 1794600134896024998,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "ceb83a9174cac8dc13e1d1924920feaa0075dab0e1b22928b1e8e5afa9e1c482"
+      ]
+    },
+    "docs/knowledge_base/Эллар Вейл.txt": {
+      "sha256": "d7fa950ad2abfd8a072d665a4bb8cc6451cee199a731a1170b348a1e5957d446",
+      "size_bytes": 1552,
+      "mtime_ns": 1794600134896202625,
+      "chunk_count": 1,
+      "chunk_ids": [
+        "bf8d43202a925af027da0a06453db23f3213ed8f17e0870b10dd0b44cf0dc573"
+      ]
+    }
+  },
+  "source_dir": "/Users/sergey/work/yandex_practicum/ms_cource/architecture-pro-quantumforge/docs/knowledge_base",
+  "index_dir": "/Users/sergey/work/yandex_practicum/ms_cource/architecture-pro-quantumforge/task6/chroma_db",
+  "last_success_at": "2026-11-22T20:19:44.077577+00:00",
+  "index_chunk_count": 203
+}

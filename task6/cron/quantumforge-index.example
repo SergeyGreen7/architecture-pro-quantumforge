@@ -1,0 +1,3 @@
+# Daily at 06:00 in the machine's local timezone.
+# Replace /absolute/path/to/repository before installing manually.
+0 6 * * * /bin/sh /absolute/path/to/repository/task6/run_daily_update.sh # quantumforge-task6-daily-index
