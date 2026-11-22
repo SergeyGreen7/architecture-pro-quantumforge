@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-11-22T20:32:18.507440+00:00",
+  "source_index": "/Users/sergey/work/yandex_practicum/ms_cource/architecture-pro-quantumforge/task6/chroma_db",
+  "target_index": "/Users/sergey/work/yandex_practicum/ms_cource/architecture-pro-quantumforge/task7/chroma_db",
+  "collection": "quantumforge_knowledge_base",
+  "source_chunk_count": 203,
+  "removed_entities": [
+    "Куратор Эйдос",
+    "Союз Зенор",
+    "Криос"
+  ],
+  "removed_chunks_by_entity": {
+    "Куратор Эйдос": 2,
+    "Союз Зенор": 2,
+    "Криос": 2
+  },
+  "removed_chunk_count": 6,
+  "final_chunk_count": 197,
+  "removed_chunks": [
+    {
+      "id": "437131409ab8f44f9de96423adff4668de6c8439c311e523fa2cae42c69a3ead",
+      "title": "Криос",
+      "source": "docs/knowledge_base/Криос.txt",
+      "chunk_index": 1
+    },
+    {
+      "id": "751fd5195672fcfdd9b04ff17c0138929b36d0d14205a5ece77b0ae7b8c57977",
+      "title": "Криос",
+      "source": "docs/knowledge_base/Криос.txt",
+      "chunk_index": 2
+    },
+    {
+      "id": "3d42f2c1333fd8fb2091b8a9ae8cda7f4b453e2409cd5399e7b19fd679fc485a",
+      "title": "Куратор Эйдос",
+      "source": "docs/knowledge_base/Куратор Эйдос.txt",
+      "chunk_index": 1
+    },
+    {
+      "id": "e56815822bcbbaa646a101ac45d6a262e124d8c4b629f34d2cc5d104186be617",
+      "title": "Куратор Эйдос",
+      "source": "docs/knowledge_base/Куратор Эйдос.txt",
+      "chunk_index": 2
+    },
+    {
+      "id": "ba9eaff870bf2b6b1325efd2853ab501d44e7ac72f571e914b632d800c7cd6b9",
+      "title": "Союз Зенор",
+      "source": "docs/knowledge_base/Союз Зенор.txt",
+      "chunk_index": 1
+    },
+    {
+      "id": "4b22cfa2b325645a42521efbfe88c3faf57398400da28b35985e49cc555dc89b",
+      "title": "Союз Зенор",
+      "source": "docs/knowledge_base/Союз Зенор.txt",
+      "chunk_index": 2
+    }
+  ]
+}

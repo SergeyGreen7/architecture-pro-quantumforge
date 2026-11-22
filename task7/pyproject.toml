@@ -1,0 +1,13 @@
+[project]
+name = "quantumforge-task7-coverage-evaluation"
+version = "0.1.0"
+description = "Golden-set coverage and quality analytics for the QuantumForge RAG bot"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "chromadb==1.5.9",
+    "sentence-transformers==5.7.0",
+    "yandex-ai-studio-sdk>=0.19,<1",
+]
+
+[tool.uv]
+package = false
