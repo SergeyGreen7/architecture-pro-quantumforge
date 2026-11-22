@@ -65,7 +65,9 @@ class RAGPipeline:
             chunks,
             max_context_chars=self._max_context_chars,
         )
-        generated = self._generator.generate(messages).strip()
+        generated = _without_verification_steps(
+            self._generator.generate(messages).strip()
+        )
         if generated.startswith("Я не знаю"):
             return RAGResult(
                 answer=UNKNOWN_ANSWER,
@@ -74,9 +76,10 @@ class RAGPipeline:
             )
 
         citations = _unique_citations(chunks)
-        answer = f"{generated}\n\nИсточники:\n" + "\n".join(
-            f"• {citation}" for citation in citations
-        )
+        # answer = f"{generated}\n\nИсточники:\n" + "\n".join(
+        #     f"• {citation}" for citation in citations
+        # )
+        answer = generated
         return RAGResult(
             answer=answer,
             chunks=tuple(chunks),
@@ -92,3 +95,11 @@ def _unique_citations(chunks: list[RetrievedChunk]) -> list[str]:
             citations.append(chunk.citation)
             seen.add(chunk.citation)
     return citations
+
+
+def _without_verification_steps(answer: str) -> str:
+    """Keep only the final answer if a model returns the retired step block."""
+
+    if answer.startswith("Проверка по шагам:") and "Итог:" in answer:
+        return answer.split("Итог:", maxsplit=1)[1].strip()
+    return answer

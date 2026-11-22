@@ -35,27 +35,42 @@ class FakeGenerator:
         return self.answer
 
 
-def test_grounded_answer_uses_few_shot_cot_context_and_citations() -> None:
+def test_grounded_answer_uses_direct_few_shot_and_context() -> None:
     retriever = FakeRetriever([chunk()])
-    generator = FakeGenerator(
-        "Проверка по шагам:\n1. Найдено устройство.\n2. Найдено назначение.\n"
-        "Итог: Аркон использует фазовую пушку."
-    )
+    generator = FakeGenerator("Аркон использует фазовую пушку.")
     pipeline = RAGPipeline(retriever=retriever, generator=generator)
 
     result = pipeline.answer("  Как Аркон путешествует?  ")
 
     assert result.answered_from_context is True
-    assert "Итог: Аркон использует фазовую пушку." in result.answer
-    assert "Источники:" in result.answer
-    assert "Аркон Вейр" in result.answer
+    assert result.answer == "Аркон использует фазовую пушку."
     assert retriever.calls == [("Как Аркон путешествует?", 3)]
     assert generator.messages is not None
     assert generator.messages[0]["role"] == "system"
-    assert "Chain-of-Thought" in generator.messages[0]["text"]
+    assert "Дай короткий прямой ответ" in generator.messages[0]["text"]
+    assert all(
+        "Проверка по шагам" not in message["text"]
+        for message in generator.messages[1:]
+    )
     assert len(generator.messages) == 6  # system, two few-shot pairs, final question
     assert "Аркон использует самодельную фазовую пушку" in generator.messages[-1]["text"]
     assert "Как Аркон путешествует?" in generator.messages[-1]["text"]
+
+
+def test_legacy_verification_steps_are_removed_from_answer() -> None:
+    pipeline = RAGPipeline(
+        retriever=FakeRetriever([chunk()]),
+        generator=FakeGenerator(
+            "Проверка по шагам:\n"
+            "1. Найдено устройство.\n"
+            "2. Найдено назначение.\n"
+            "Итог: Аркон использует фазовую пушку."
+        ),
+    )
+
+    result = pipeline.answer("Как Аркон путешествует?")
+
+    assert result.answer == "Аркон использует фазовую пушку."
 
 
 def test_low_similarity_returns_unknown_without_calling_llm() -> None:

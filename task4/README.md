@@ -2,8 +2,8 @@
 
 Рабочий RAG-бот принимает вопросы из Telegram, строит эмбеддинг запроса локальной
 моделью `BAAI/bge-m3`, ищет фрагменты в ChromaDB и передаёт только найденный
-контекст в YandexGPT. Ответ содержит короткие проверяемые шаги и ссылки на
-исходные статьи.
+контекст в YandexGPT. Бот возвращает короткий прямой ответ без раскрытия
+внутренних рассуждений.
 
 ## Архитектура
 
@@ -19,7 +19,7 @@ FastAPI в Yandex Serverless Container
    │    ChromaDB (task3/chroma_db, cosine top-k)
    │          │
    │          ▼
-   │    контекст + few-shot + проверяемые шаги
+   │    контекст + few-shot
    │
    └──────────────────────► YandexGPT в AI Studio
                               │
@@ -51,7 +51,7 @@ Docker-образ заранее загружает модель в `/app/task2/
 - поиск top-k чанков в постоянной коллекции ChromaDB по cosine similarity;
 - порог уверенности: слабая выдача сразу возвращает «Я не знаю» без вызова LLM;
 - два few-shot примера из реальной базы (`Аркон Вейр` и `Зерониды`);
-- Chain-of-Thought как 2–3 коротких проверяемых шага по найденным фактам;
+- короткий прямой ответ без блока с пошаговыми рассуждениями;
 - запрет использовать знания вне контекста и инструкции внутри документов;
 - YandexGPT через официальный `yandex-ai-studio-sdk`;
 - Telegram webhook с проверкой `X-Telegram-Bot-Api-Secret-Token`;
@@ -68,7 +68,7 @@ Docker-образ заранее загружает модель в `/app/task2/
 | `src/quantumforge_bot/constants.py` | все константы, значения по умолчанию, тексты и промпты |
 | `src/quantumforge_bot/logging_config.py` | JSON formatter, stdout и ротация файлов |
 | `src/quantumforge_bot/retriever.py` | BGE-M3 и поиск в ChromaDB |
-| `src/quantumforge_bot/prompts.py` | system prompt, few-shot и формат шагов |
+| `src/quantumforge_bot/prompts.py` | system prompt, few-shot и формат ответа |
 | `src/quantumforge_bot/pipeline.py` | полный RAG-пайплайн и confidence gate |
 | `src/quantumforge_bot/llm.py` | клиент YandexGPT |
 | `src/quantumforge_bot/telegram.py` | клиент Telegram Bot API |
@@ -110,6 +110,14 @@ uv run python -m quantumforge_bot
 `../task2/embedding_model_cache`. YandexGPT является платным API: каждый вопрос,
 прошедший порог поиска, создаёт оплачиваемый запрос.
 
+Телеграм бот
+
+```bash
+./.venv/bin/uvicorn quantumforge_bot.app:app \
+  --host 127.0.0.1 \
+  --port 8080
+```
+
 Локальный HTTP-сервер:
 
 ```bash
@@ -129,7 +137,7 @@ uv run pytest
 
 Тесты проверяют:
 
-- наличие few-shot, формата шагов, контекста и источников в успешном запросе;
+- наличие few-shot и контекста в успешном запросе;
 - ответ «Я не знаю» при пустой или слабой выдаче без вызова YandexGPT;
 - нормализацию отказа самой LLM;
 - лимит длины вопроса и деление длинных Telegram-сообщений;
